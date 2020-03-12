@@ -147,30 +147,17 @@ align-content: center;
 /* Features and About */
 
 #topSection{
-	width: 100%;
-	display: inline-block;
-	margin-top: 5%;
-		margin-bottom: 5%;
+	display: flex;
+	margin: 5% 0;
+
 
 }
 
-.features{
-	display: inline-block;
-	width: 40%;
-	margin-bottom: 3%;
-}
-
-.about{
-	display: inline-block;
-	width: 40%;
-	margin-left: 15%;
-	margin-bottom: 3%;
-}
 
 /* middle image */
 
 .middle-img{
-	display: block;
+
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -179,29 +166,17 @@ align-content: center;
 /* services, product, vision */
 
 #bottomSection{
-	width: 100%;
-	display: inline-block;
-	margin-bottom: 5%;
+	display: flex;
+	justify-content: space-between;
+	margin: 5% 0;
 }
 
-.services{
-	display: inline-block;
-	width: 30%;
-	margin-right: 3%;
-}
-
-
-.product{
+.bottomSec{
 	display: inline-block;
 	width: 30%;
-	margin-right: 3%;
+
 }
 
-
-.vision{
-	display: inline-block;
-	width: 30%;
-}
 
 /* Contact */
 
@@ -219,5 +194,6 @@ align-content: center;
 
 footer{
 	margin: 5% 10% 12%;
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
